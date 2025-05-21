@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+
+}
+.container{
+    border-radius: 30px;
+    max-width: 900px;
+    display: flex;
+    border: solid 2px black;
+    padding: auto;
+    box-shadow: black 4px ;
+    margin-top: 30px;
+    margin: auto;
+}
+.imageprod{
+    margin-right: 10px;
+    border-start-end-radius: 35%;
+    border-end-end-radius: 35%;
+    width: 500px;
+    height: 250px;
+}
+.imageprod img{
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 100%;
+    max-height: 100%;
+
+}
+.infossup h2{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    color: rgb(13, 173, 96);
+}
+.infossup p{
+    text-align: justify;
+     margin-bottom: 33px;
+     padding: 15px;
+}
+.prixbouton{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+.prix{
+    color: rgb(249, 61, 61);
+    font-size: 22px;
+    padding-left: 20px;
+ 
+}
+.prixbouton button{
+    border: none;
+    color: whitesmoke;
+    width: 110px;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 450px;
+    background-color: rgb(13, 173, 96);
+}

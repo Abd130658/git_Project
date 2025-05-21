@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    height: 70;
+    display: flex;
+    align-items: center
+}
+.logo img{
+    width: 155px;
+    height: 70px;
+}
+nav{
+    flex: 100;
+    text-align: right;
+    align-items: end;
+
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width: 1300px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.col1{
+    flex-basis: 50%;
+    min-width: 300px;
+    /* height: ; */
+}
+.col2 img{
+    width: 100%;
+    /* height: 300px; */
+}
+.col1 h1{
+    font-size: 54px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col1 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 30px;
+    margin-top: 25px;
+    background-color: rgb(17, 160, 17);
+    transition: background 0.25;
+}
+.col1 a:hover{
+    background: rgb(4, 95, 4);
+}
+p{
+    color: black;
+}
+
+.bodyandhead{
+    border-top: solid black 0.1px;
+    margin-top: -20;
+    background: radial-gradient(#fff,rgb(76, 145, 131));
+}
+/* Style de la section Categorie */
+#apropos{
+    margin: 50px 0;
+}
+.con2{
+    display: flex;
+    flex-direction: row;
+}
+.imglonrich {
+    margin-left: 60px;
+}
+.imglonrich img{
+    width: 240px;
+    height: 240px;
+}
+.presentation{
+    margin: auto;
+    text-align: justify;
+}
+
+    /* border: black solid 2px; */
+
+.container h2{
+    text-align: center;
+    font-size: 1.8rem;
+    color: black;
+    margin: 50px 0;
+}
+/* Section des meilleurs produits */
+.col4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+
+}
+.col4 img{
+    width: 100%;
+}
+.col4:hover{
+    transform: translateY(-10px);
+
+}
+.rating .fa{
+    color: rgb(11, 230, 149);
+}
